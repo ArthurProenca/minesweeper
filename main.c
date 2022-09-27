@@ -90,7 +90,6 @@ int main(int argc, char *argv[])
         if (i < col + 2 || i > (lin + 1) * (col + 2) || i % (col + 2) == 0 || i % (col + 2) == col + 1)
         {
             tratada[i] = 'O';
-            // printf("[%d]", i);
         }
         else
         {
